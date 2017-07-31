@@ -1,6 +1,8 @@
 [package]
 name = "guessing_game"
 version = "0.1.0"
-authors = ["khannajai jai41khanna@gmail.com]
+authors = ["khannajai <jai41khanna@gmail.com>"]
 
 [dependencies]
+rand = "0.3.14"
+rusty-machine = "0.5.4"
