@@ -3,9 +3,10 @@ extern crate rusty_machine;
 
 use rand::Rng;
 use std::io;
-use std::cmp::Ordering
+use std::cmp::Ordering;
 
-fn main() {
+fn main() 
+{
     println!("Guess the number!");
     let secret_number=rand::thread_rng().gen_range(1,101);
     println!("The secret number is {}",secret_number);
